@@ -1,0 +1,9 @@
+공유기 차단
+
+	1.  백본 - 192.168.0.0 (B class) 의심 Vlan에 추가
+
+
+	2.  백본 - private IP 및 mac address 확인
+        ping 192.168.0.x
+        show ip arp | in 192.168.0
+        
